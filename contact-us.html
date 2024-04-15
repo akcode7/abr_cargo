@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="icon" type="image/x-icon" href="src/img/logo/hqlogo.png">
+     <!-- Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+     <!-- Link to Tiny Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <title>ABR CARGO</title>
+    <style>
+         *{
+          font-family: 'Poppins', sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+        .hero_glass{
+            background: rgba(204, 203, 203, 0.1);
+box-shadow: 0 8px 32px 0 rgba(232, 233, 246, 0.355);
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+    </style>
+</head>
+<body>
+    <header class="shadow-md fixed relative">
+        <div class=" bg-indigo-600">
+            <div class="container mx-auto px-5 md:px-20">
+                <ul class="flex justify-end space-x-3 py-2">
+                    <li>
+                        <svg class="w-5 h-5 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                        </svg>                  
+                    </li>
+                    <li>
+                        <svg class="w-5 h-5 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M22 5.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.343 8.343 0 0 1-2.605.981A4.13 4.13 0 0 0 15.85 4a4.068 4.068 0 0 0-4.1 4.038c0 .31.035.618.105.919A11.705 11.705 0 0 1 3.4 4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 6.1 13.635a4.192 4.192 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 2 18.184 11.732 11.732 0 0 0 8.291 20 11.502 11.502 0 0 0 19.964 8.5c0-.177 0-.349-.012-.523A8.143 8.143 0 0 0 22 5.892Z" clip-rule="evenodd"/>
+                        </svg>
+                    </li>
+                    <li>
+                        <?xml version="1.0"?><svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="24" height="24" fill="currentColor">
+                            <path d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"/>
+                        </svg>
+                    </li>
+                    <li class="text-white font-xs font-semibold">
+                        +91 90032 22666
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Mobile header starts -->
+          <!-- Mobile header starts -->
+          <div class="container mx-auto px-5 lg:hidden">
+              <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <a href="index.html" class="flex items-center">
+                    <img src="src/img/logo/hqlogo.png" class="mr-3 h-16" alt="ABR Cargo">
+                </a>
+                <div class="flex items-center lg:order-2">
+                    <button data-collapse-toggle="mobile-menu-2" id="button_mobile" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+            </div>
+          </div>
+        <!-- Mobile header ends -->
+        <!-- Mobile header endss -->
+        <nav class="container mx-auto px-5 md:px-20 hidden lg:block">
+            <div class="grid grid-cols-3 gap-2 py-3">
+                <div class="col-span-1">
+                    <div>
+                        <img src="src/img/logo/hqlogo.png" alt="" class="w-64">
+                    </div>
+                </div>
+                <div class="col-span-2 flex items-center justify-end">
+                    <ul class="text-gray-900 text-base font-medium flex space-x-5">
+                        <li>
+                            <a href="index.html">
+                                HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">
+                                ABOUT US
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services.html">
+                                SERVICES
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">
+                                CONTACT US
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="mobileMenu container mx-auto px-5 md:px-20 hidden lg:hidden">
+            <div class="grid grid-cols-3 gap-2 py-3">
+                <div class="col-span-3">
+                    <ul class="text-gray-900 text-base font-medium space-y-5">
+                        <li>
+                            <a href="index.html">
+                                HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">
+                                ABOUT US
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services.html">
+                                SERVICES
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">
+                                CONTACT US
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+     <!-- Header ends -->
+     
+    <!-- hero starts -->
+    <section class="py-20 md:py-48 bg-gray-200 bg-no-repeat bg-cover bg-center" style="background-image: url(src/images/slider_bg2.jpg);">
+        <div class="container mx-auto py-8 md:py-16 px-5 md:px-20">
+            <div>
+                <h2 class="text-6xl font-bold text-primary-gray py-3">Contact</h2>
+                <p class="text-lg font-normal text-primary-gray">We appreciate your interest in Ultra Market Research, and are always here to help you.</p>
+            </div>
+        </div>
+    </section>
+    <!-- hero ends -->
+   
+    <!-- contact starts -->
+    <section>
+        <div class="container mx-auto px-5 md:px-20 pt-10">
+            <h2 class="text-3xl font-semibold text-gray-900 py-2">GET IN TOUCH WITH US</h2>
+            <p class="text-base text-gray-500 font-medium pb-4 pt-2">Service Locations in TamilNadu are CHENNAI, VELLORE, TIRUVANAMALAI, VILLUPURAM, CUDDALORE & PONDY, TRICHY, MADURAI, COIMBATORE, SALEM, TIRUPUR.</p>
+            <div class="grid grid-cols-2 gap-2 my-5 px-4 bg-gray-100 py-20 rounded-md">
+                <div class="col-span-2 md:col-span-1 text-center md:text-start">
+                    <h2 class="text-2xl font-semibold text-gray-900 py-2">Customer Care:</h2>
+                    <p class="text-base text-gray-500 font-medium">+91 90032 22666</p>
+                </div>
+                <div class="col-span-2 md:col-span-1 text-center md:text-start">
+                    <h2 class="text-2xl font-semibold text-gray-900 py-2">Please Write Us:</h2>
+                    <p class="text-base text-gray-500 font-medium">abrmovers@gmail.com</p>
+                </div>
+            </div>
+            <div class="py-14">
+                <p class="text-base text-gray-500 font-medium pb-4 pt-2">Find our address below and reach us if need any help. We are waiting to help you there on time. If you have any queries contact us through call or by mails.</p>
+            </div>
+        </div>
+    </section>
+    <!-- contact endss -->
+    <div class="container mx-auto px-5 md:px-20 py-16">
+        <div class="grid grid-cols-4 gap-4">
+            <div class="col-span-4 md:col-span-2 xl:col-span-1 px-4 py-3 hover:shadow-md transition-all duration-200 rounded-md cursor-pointer">
+                <button class="bg-teal-200 px-8 py-6 rounded-lg">
+                    <svg class="w-8 h-8 text-teal-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.127.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"/>
+                    </svg>
+                </button>
+                <div class="pt-3">
+                    <p class="text-base font-normal text-primary-gray py-3">
+                        <span class="font-semibold">Address:</span>
+                        428, Corporate Park, Sector-21, Dwarka, New Delhi-110077, India
+                    </p>
+                </div>
+            </div>
+            <div class="col-span-4 md:col-span-2 xl:col-span-1 px-4 py-3 hover:shadow-md transition-all duration-200 rounded-md cursor-pointer">
+                <button class="bg-teal-200 px-8 py-6 rounded-lg">
+                    <svg class="w-8 h-8 text-teal-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                    </svg>
+                </button>
+                <div class="pt-3">
+                    <p class="text-base font-normal text-primary-gray py-3">
+                        <span class="font-semibold">Working Time:</span>
+                        (Monday to Friday 9 A.M. to 6 P.M. IST)
+                    </p>
+                </div>
+            </div>
+            <div class="col-span-4 md:col-span-2 xl:col-span-1 px-4 py-3 hover:shadow-md transition-all duration-200 rounded-md cursor-pointer">
+                <button class="bg-teal-200 px-8 py-6 rounded-lg">
+                    <svg class="w-8 h-8 text-teal-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.427 14.768 17.2 13.542a1.733 1.733 0 0 0-2.45 0l-.613.613a1.732 1.732 0 0 1-2.45 0l-1.838-1.84a1.735 1.735 0 0 1 0-2.452l.612-.613a1.735 1.735 0 0 0 0-2.452L9.237 5.572a1.6 1.6 0 0 0-2.45 0c-3.223 3.2-1.702 6.896 1.519 10.117 3.22 3.221 6.914 4.745 10.12 1.535a1.601 1.601 0 0 0 0-2.456Z"/>
+                    </svg>
+                </button>
+                <div class="pt-3">
+                    <p class="text-base font-normal text-primary-gray py-3">
+                        <span class="font-semibold">Phone Number:</span>
+                        +91 90032 22666
+                    </p>
+                </div>
+            </div>
+            <div class="col-span-4 md:col-span-2 xl:col-span-1 px-4 py-3 hover:shadow-md transition-all duration-200 rounded-md cursor-pointer">
+                <button class="bg-teal-200 px-8 py-6 rounded-lg">
+                    <svg class="w-8 h-8 text-teal-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M21.718 12c0-1.429-1.339-2.681-3.467-3.5.029-.18.077-.37.1-.545.217-2.058-.273-3.543-1.379-4.182-1.235-.714-2.983-.186-4.751 1.239C10.45 3.589 8.7 3.061 7.468 3.773c-1.107.639-1.6 2.124-1.379 4.182.018.175.067.365.095.545-2.127.819-3.466 2.071-3.466 3.5 0 1.429 1.339 2.681 3.466 3.5-.028.18-.077.37-.095.545-.218 2.058.272 3.543 1.379 4.182.376.213.803.322 1.235.316a5.987 5.987 0 0 0 3.514-1.56 5.992 5.992 0 0 0 3.515 1.56 2.44 2.44 0 0 0 1.236-.316c1.106-.639 1.6-2.124 1.379-4.182-.019-.175-.067-.365-.1-.545 2.132-.819 3.471-2.071 3.471-3.5Zm-6.01-7.548a1.5 1.5 0 0 1 .76.187c.733.424 1.055 1.593.884 3.212-.012.106-.043.222-.058.33-.841-.243-1.7-.418-2.57-.523a16.165 16.165 0 0 0-1.747-1.972 4.9 4.9 0 0 1 2.731-1.234Zm-7.917 8.781c.172.34.335.68.529 1.017.194.337.395.656.6.969a14.09 14.09 0 0 1-1.607-.376 14.38 14.38 0 0 1 .478-1.61Zm-.479-4.076a14.085 14.085 0 0 1 1.607-.376c-.205.313-.405.634-.6.969-.195.335-.357.677-.529 1.017-.19-.527-.35-1.064-.478-1.61ZM8.3 12a19.32 19.32 0 0 1 .888-1.75c.33-.568.69-1.118 1.076-1.65.619-.061 1.27-.1 1.954-.1.684 0 1.333.035 1.952.1a19.63 19.63 0 0 1 1.079 1.654c.325.567.621 1.15.887 1.746a18.869 18.869 0 0 1-1.953 3.403 19.218 19.218 0 0 1-3.931 0 20.169 20.169 0 0 1-1.066-1.653A19.324 19.324 0 0 1 8.3 12Zm7.816 2.25c.2-.337.358-.677.53-1.017.191.527.35 1.065.478 1.611a14.48 14.48 0 0 1-1.607.376c.202-.314.404-.635.597-.97h.002Zm.53-3.483c-.172-.34-.335-.68-.53-1.017a20.214 20.214 0 0 0-.6-.97c.542.095 1.078.22 1.606.376a14.111 14.111 0 0 1-.478 1.611h.002ZM12.217 6.34c.4.375.777.773 1.13 1.193-.37-.02-.746-.033-1.129-.033s-.76.013-1.131.033c.353-.42.73-.817 1.13-1.193Zm-4.249-1.7a1.5 1.5 0 0 1 .76-.187 4.9 4.9 0 0 1 2.729 1.233A16.253 16.253 0 0 0 9.71 7.658c-.87.105-1.728.28-2.569.524-.015-.109-.047-.225-.058-.331-.171-1.619.151-2.787.885-3.211ZM3.718 12c0-.9.974-1.83 2.645-2.506.218.857.504 1.695.856 2.506-.352.811-.638 1.65-.856 2.506C4.692 13.83 3.718 12.9 3.718 12Zm4.25 7.361c-.734-.423-1.056-1.593-.885-3.212.011-.106.043-.222.058-.331.84.243 1.697.418 2.564.524a16.37 16.37 0 0 0 1.757 1.982c-1.421 1.109-2.714 1.488-3.494 1.037Zm3.11-2.895c.374.021.753.034 1.14.034.387 0 .765-.013 1.139-.034a14.4 14.4 0 0 1-1.14 1.215 14.248 14.248 0 0 1-1.139-1.215Zm5.39 2.895c-.782.451-2.075.072-3.5-1.038a16.248 16.248 0 0 0 1.757-1.981 16.41 16.41 0 0 0 2.565-.523c.015.108.046.224.058.33.175 1.619-.148 2.789-.88 3.212Zm1.6-4.854A16.563 16.563 0 0 0 17.216 12c.352-.812.638-1.65.856-2.507 1.671.677 2.646 1.607 2.646 2.507 0 .9-.975 1.83-2.646 2.507h-.004Z"/>
+                        <path d="M12.215 13.773a1.792 1.792 0 1 0-1.786-1.8v.006a1.787 1.787 0 0 0 1.786 1.794Z"/>
+                    </svg>
+
+                </button>
+                <div class="pt-3">
+                    <p class="text-base font-normal text-primary-gray py-3">
+                        <span class="font-semibold">E-mail:</span>
+                        abrmovers@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-20 bg-gray-50">
+        <div class="container mx-auto px-5 md:px-20 py-8">
+            <div class="grid grid-cols-5">
+                <div class="col-span-5 md:col-span-2">
+                  <a href="#" class="group shrink-0 relative block self-start overflow-hidden w-64 rounded-lg bg-gray-50 shadow-md mb-4">
+                    <img src="src/img/logo/websitelogo.png" loading="lazy" alt="" class="p-4 w-64">
+                  </a>
+                  <span class="text-xs font-light text-primary-orange underline">ABR CARGO</span>
+                  <p class="text-base font-normal text-primary-gray pr-5 pt-2">Abr Packers And Movers in Chennai is one of the leading businesses in the Packers And Movers.</p>
+                </div>
+                <div class="col-span-5 md:col-span-1">
+                    <h2 class="text-2xl font-semibold text-primary-gray py-3">Services</h2>
+                    <ul>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            Packing Moving Services
+                        </li>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            Household Shifting
+                        </li>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            Relocation Services
+                        </li>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            Car Carriers Services
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-span-5 md:col-span-1">
+                    <h2 class="text-2xl font-semibold text-primary-gray py-3">Quick Links</h2>
+                    <ul>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            About Us
+                        </li>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            Services
+                        </li>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            Enquiry
+                        </li>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            Contact Us
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-span-5 md:col-span-1">
+                    <h2 class="text-2xl font-semibold text-primary-gray pb-3">Contact</h2>
+                    <ul>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <svg class="w-5 h-5 text-primary-orange" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"></path>
+                            </svg>
+                            No 27, 3rd Main Road(VGN Southern Avenue, Cowl Bazaar, Chennai - 600074)
+                        </li>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <ul class="flex space-x-2">
+                                <li>
+                                    <svg class="w-5 h-5 text-gray-900" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="m3.62 6.389 8.396 6.724 8.638-6.572-7.69-4.29a1.975 1.975 0 0 0-1.928 0L3.62 6.39Z"></path>
+                                        <path d="m22 8.053-8.784 6.683a1.978 1.978 0 0 1-2.44-.031L2.02 7.693a1.091 1.091 0 0 0-.019.199v11.065C2 20.637 3.343 22 5 22h14c1.657 0 3-1.362 3-3.043V8.053Z"></path>
+                                      </svg>                          
+                                </li>
+                                <li class="text-gray-900 font-base font-medium">
+                                    abrmovers@gmail.com
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="text-sm text-primary-gray font-normal flex py-1.5 hover:underline hover:font-medium hover:pl-4 transition-all duration-200 cursor-pointer">
+                            <ul class="flex space-x-2">
+                                <li>
+                                    <svg class="w-5 h-5 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="24" height="24" fill="currentColor">
+                                        <path d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"></path>
+                                    </svg>
+                                </li>
+                                <li class="text-gray-900 font-base font-medium">
+                                    +91 90032 22666
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </footer>
+</body>
+<script>
+
+    // header mobile menu script
+    
+     
+    const btn = document.querySelector("#button_mobile");
+    const closebtn = document.querySelector(".mobile-menu-close-btn");
+    const menu = document.querySelector(".mobileMenu");
+    const btnsoc= [closebtn, btn];
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        console.log("clicked");
+    });
+    
+    
+    // header mobile menu ends
+    
+    </script>
+</html>
